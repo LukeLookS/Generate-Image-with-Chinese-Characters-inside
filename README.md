@@ -1,20 +1,21 @@
 # Generate-Image-with-Chinese-Characters-inside
 python, Opencv, freetype
-#Implement a C or C++ code to implement the same functionality for arbitrary text input.
+## Used C/C++ code to implement the same functionality for arbitrary text input.
 
-###########################################
-
+```
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
+
 
 img = Image.new("RGB", (224, 224), (0,0,0))
 draw = ImageDraw.Draw(img)
 font = ImageFonttruetype("simhei.ttf", 16)
 draw.text((0, 0),"Sample Text",(255,255,255),font=font)
 img.save("Sample", "JPEG")
-############################################
+```
 
+### basic functions
 1. support simhei.ttf, can support arbitrary font file within the same directory
 2. support other languages, such as Chinese, Japanese, Korean and etc
 3. Change your Fontsize, (currently it is fixed size of 16)
@@ -23,7 +24,7 @@ img.save("Sample", "JPEG")
 6. optimize your code and make it faster
 7. reduce memory footprint as much as possible
 
-Usage of my code
+### how to build and run my code
 
 安装opencv
 
