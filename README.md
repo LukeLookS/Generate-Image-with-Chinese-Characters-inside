@@ -3,6 +3,7 @@ python, Opencv, freetype
 #Implement a C or C++ code to implement the same functionality for arbitrary text input.
 
 ###########################################
+
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
