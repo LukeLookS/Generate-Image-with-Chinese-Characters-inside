@@ -15,14 +15,15 @@ draw.text((0, 0),"Sample Text",(255,255,255),font=font)
 img.save("Sample", "JPEG")
 ############################################
 
-#support simhei.ttf, can support arbitrary font file within the same directory
-#support other languages, such as Chinese, Japanese, Korean and etc
-#Change your Fontsize, (currently it is fixed size of 16)
-#fit in long text input that needs more than one line and needs to change into another line within the image
-#change the position in the image for the first word of the text
-#optimize your code and make it faster
-#reduce memory footprint as much as possible
-Make and Run Code
+1. support simhei.ttf, can support arbitrary font file within the same directory
+2. support other languages, such as Chinese, Japanese, Korean and etc
+3. Change your Fontsize, (currently it is fixed size of 16)
+4. fit in long text input that needs more than one line and needs to change into another line within the image
+5. change the position in the image for the first word of the text
+6. optimize your code and make it faster
+7. reduce memory footprint as much as possible
+
+Usage of my code
 
 安装opencv
 
