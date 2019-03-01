@@ -7,6 +7,7 @@ First, you may need to download simhei.ttf file and put it under the same direct
 Please keep the sample code confidential.
 
 ###########################################
+
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
@@ -17,6 +18,7 @@ font = ImageFonttruetype("simhei.ttf", 16)
 draw.text((0, 0),"Sample Text",(255,255,255),font=font)
 img.save("Sample", "JPEG")
 ############################################
+
 
 Please test your code in Linux, and send your source code with executables with a detailed instructions on how to make and run your code, and how to install dependencies if necessary.
 
