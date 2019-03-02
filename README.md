@@ -1,4 +1,4 @@
-# Generate-Image-with-Chinese-Characters-inside
+# Generate-Image-with-inside-Chinese-Characters
 python, Opencv, freetype
 ## Used C/C++ code to implement the same functionality for arbitrary text input.
 
